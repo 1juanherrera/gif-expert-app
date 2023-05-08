@@ -5,6 +5,7 @@ const GifExpertApp = () => {
     const [ categories, setCategories ] = useState(['One Punch', 'Dragon Ball', 'Naruto'])
 
     console.log(categories)
+    
 
     return (
         <>
