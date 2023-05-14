@@ -13,7 +13,6 @@ const GifExpertApp = () => {
         setCategories([ newCategory, ...categories ])
     }
 
-
     return (
         <>
             <h1>GifExpertApp</h1>
