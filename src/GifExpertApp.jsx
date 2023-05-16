@@ -4,7 +4,7 @@ import GifGrid from "./components/GifGrid"
 
 const GifExpertApp = () => {
 
-    const [ categories, setCategories ] = useState(['One Punch', 'Dragon Ball', 'Naruto'])  
+    const [ categories, setCategories ] = useState(['One Punch'])  
 
     const onAddCategory = (newCategory) => {
 
