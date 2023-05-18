@@ -8,7 +8,6 @@ const GifGrid = ({ category }) => {
 
     useEffect(() => {
         getGifs(category)
-
     }, [])
 
     return (
