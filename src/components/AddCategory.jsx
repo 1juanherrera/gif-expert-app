@@ -14,7 +14,6 @@ const AddCategory = ({ onNewCategory }) => {
         if(inputValue.trim().length <= 1) return;
 
         onNewCategory( inputValue.trim() );
-        //setCategories([ ...categories, inputValue])
         setInputValue('')
     }
 
