@@ -6,6 +6,10 @@
   body {
     padding: 60px;
   }
+
+  h1 {
+    font-size: 3rem;
+  }
   
   input {
     background-color: white;
@@ -29,7 +33,7 @@
   }
   
   h3 {
-    font-size: 3rem;
+    font-size: 2rem;
     margin-bottom: 5px;
   }
   
@@ -53,12 +57,13 @@
     margin-bottom: 20px;
     margin-right: 20px;
     overflow: hidden;
+    width: 400px;
   }
   
   .card p {
     background-color: white;
     flex: 1;
-    font-size: 1.5rem;
+    font-size: 1.2rem;
     margin-top: 5px;
     padding: 5px 20px 0px 20px;
     text-align: center;

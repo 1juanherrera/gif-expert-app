@@ -22,13 +22,16 @@ const GifGrid = ({ category }) => {
         <>
             <h3>{category}</h3>
 
-            <ol className="card-grid">
+            <div className="card-grid">
                 {
-                    images.map( ({ id, title }) => (
-                        <GifGridItem key={id} />
+                    images.map( ( image ) => (
+                        <GifGridItem 
+                        key={image.id}
+                        { ...image }
+                        />
                     ))
                 }
-            </ol>
+            </div>
         </>
     )
 }
