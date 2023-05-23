@@ -59,6 +59,10 @@
     overflow: hidden;
     width: 400px;
   }
+
+  .is-loading {
+    text-align: center;
+  }
   
   .card p {
     background-color: white;
